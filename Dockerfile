@@ -1,6 +1,6 @@
 FROM java
 
-MAINTAINER niels@2gears.com
+MAINTAINER Niels Heisterkamp <niels@2gears.com>
 
 ARG VERSION=6.1.3.42
 
