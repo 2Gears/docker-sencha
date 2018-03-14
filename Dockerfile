@@ -2,7 +2,7 @@ FROM java
 
 MAINTAINER Niels Heisterkamp <niels@2gears.com>
 
-ARG VERSION=6.1.3.42
+ARG VERSION=6.5.3.6
 
 RUN curl -o /tmp/sencha.sh.zip \
         http://cdn.sencha.com/cmd/${VERSION}/no-jre/SenchaCmd-${VERSION}-linux-amd64.sh.zip && \
