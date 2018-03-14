@@ -10,4 +10,6 @@ RUN curl -o /tmp/sencha.sh.zip \
     sh /tmp/SenchaCmd-${VERSION}*-linux-amd64.sh -q && \
     rm -rf /tmp/*
 
-ENTRYPOINT ["/root/bin/Sencha/Cmd/sencha"]
+RUN ln -s /root/bin/Sencha/Cmd/sencha /usr/local/bin/sencha
+
+ENTRYPOINT ["sencha"]
